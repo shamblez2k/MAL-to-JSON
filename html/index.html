@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anime Ranking Search</title>
+  </head>
+  <body>
+    <form action="search" method="get">
+      <fieldset>
+        <legend>Anime Ranking Search</legend>
+        <label for="ranking type">Type of Ranking</label>
+        <input
+          placeholder="ranking category"
+          id="ranking type"
+          name="type"
+          type="text"
+        />
+        <input
+          placeholder="number of results"
+          id="limit"
+          name="limit"
+          type="number"
+        />
+        <input type="submit" />
+      </fieldset>
+    </form>
+    <h4>Types of Rankings:</h4>
+    <ul>
+      <li>all</li>
+      <li>airing</li>
+      <li>upcoming</li>
+      <li>favorite</li>
+      <li>bypopularity</li>
+      <li>movie</li>
+      <li>tv</li>
+      <li>ova</li>
+      <li>special</li>
+    </ul>
+  </body>
+</html>
